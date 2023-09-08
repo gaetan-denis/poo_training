@@ -23,7 +23,7 @@ $user1= new \classes\user(1,'Admin','1234');
         <tr>
             <th>#</th>
             <th>Username</th>
-            <th>">Password</th>
+            <th>Password</th>
         </tr>
         </thead>
         <tbody>
