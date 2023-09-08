@@ -46,5 +46,10 @@ class user
         $this->username = $username;
     }
 
-
+    function displayUser() :void
+    {
+        foreach ($this as $key => $value) {
+            echo '<td>'. $value.'</td>';
+        }
+    }
 }
