@@ -12,17 +12,18 @@ $user1= new \classes\user(1,'Admin','1234');
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Php training</title>
 </head>
 <body>
-    <h1>Profile</h1>
+    <h1 class="text-primary">Profile</h1>
 
-    <table>
+    <table class="table">
         <thead>
         <tr>
-            <td>Id</td>
-            <td>Username</td>
-            <td>Password</td>
+            <th>#</th>
+            <th>Username</th>
+            <th>">Password</th>
         </tr>
         </thead>
         <tbody>
@@ -31,6 +32,7 @@ $user1= new \classes\user(1,'Admin','1234');
             <td><?php echo $user1->getPassword()?></td>
         </tbody>
     </table>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
 
