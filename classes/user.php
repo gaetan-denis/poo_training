@@ -14,7 +14,7 @@ class user
     {
         $this->id=$id;
         $this->username=$username;
-        $this->password=$password;
+        $this->password=hash('sha512',$password);
     }
 
     //Getters//
